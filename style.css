@@ -1,0 +1,13 @@
+  body {
+margin: 0;
+font-family: trebuchet ms, verdana, sans-serif;
+color: #555;
+}
+.content-container {
+  display: flex;
+  margin: 0 auto;
+  flex-flow: row wrap;
+  justify-content: center;
+  max-width: 1440px;
+  padding: 0 auto;
+}
