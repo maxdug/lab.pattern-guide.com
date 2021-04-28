@@ -4,6 +4,6 @@ document.getElementById('wordgate-form').addEventListener('submit', function che
 
   if (document.getElementById('lab-input')
 
-  && document.getElementById('lab-input').value == 'letmein') window.location.href = '/library.html';
+  && document.getElementById('lab-input').value == 'letmein') window.location.href = '/access-granted';
 
 });
