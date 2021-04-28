@@ -2,12 +2,8 @@ document.getElementById('wordgate-form').addEventListener('submit', function che
 
   e.preventDefault();
 
-  if (document.getElementById('uwm-input')
+  if (document.getElementById('lab-input')
 
-  && document.getElementById('uwm-input').value == 'givemeaccess') window.location.href = '/uwm/uwm.html';
-
-  if (document.getElementById('citi-input')
-
-  && document.getElementById('citi-input').value == 'givemeaccess') window.location.href = '/citi/citi.html';
+  && document.getElementById('lab-input').value == 'letmein') window.location.href = '/library.html';
 
 });
